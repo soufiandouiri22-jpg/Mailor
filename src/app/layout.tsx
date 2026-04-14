@@ -16,14 +16,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+// Favicons: `src/app/icon.png` + `src/app/apple-icon.png` (Next.js metadata file convention).
 export const metadata: Metadata = {
   title: "Mailor | Your agent for personalized email",
   description:
     "Powering personalized outreach at scale. From emails written specifically for each recipient to automated sending, follow-ups, and performance optimization.",
-  icons: {
-    icon: "/seo/favicon.png",
-    apple: "/seo/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({
