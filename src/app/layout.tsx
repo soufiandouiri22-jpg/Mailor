@@ -16,7 +16,8 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// Favicons: `src/app/icon.png` + `src/app/apple-icon.png` (Next.js metadata file convention).
+// Favicons: `src/app/icon.png` + `src/app/apple-icon.png` (Next file convention).
+// Generated from `public/images/mailor-logo.png` with square letterboxing (`npm run favicon`).
 export const metadata: Metadata = {
   title: "Mailor | Your agent for personalized email",
   description:
